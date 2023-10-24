@@ -5,6 +5,7 @@ import SignUp from "./pages/SignUp";
 import About from "./pages/About";
 import Profile from "./pages/Profile";
 import Header from "./components/Header";
+import ForgotPassword from "./pages/ForgotPassword.jsx";
 export default function App() {
   return (
     <BrowserRouter>
@@ -15,6 +16,7 @@ export default function App() {
       <Route path="/sign-Up" element={<SignUp/>}/>
       <Route path="/About" element={<About/>}/>
       <Route path="/Profile" element={<Profile/>}/>
+      <Route path="/forgot-password" element={<ForgotPassword/>}/>
     </Routes>
     </BrowserRouter>
   )
